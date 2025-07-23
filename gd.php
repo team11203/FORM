@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'M JAN-Cookie';
+        $mail->Subject = 'GANDLYA-Cookie';
         $mail->Body = $emailBody; // Set the email body using the collected form data
         
         // Send email
